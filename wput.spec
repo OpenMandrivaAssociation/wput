@@ -11,6 +11,7 @@ License: 	GPL
 Group: 		Networking/File transfer
 Source:		http://prdownloads.sourceforge.net/wput/%{name}-%{pre}%{version}.tar.bz2
 URL:		http://wput.sourceforge.net/
+BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
 %description
 Wput is the opposite of wget, capable of uploading files to FTP 
