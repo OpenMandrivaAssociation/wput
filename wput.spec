@@ -1,7 +1,7 @@
 %define name	wput
 %define version 0.6
 %define pre	pre
-%define release %mkrel 0.%{pre}.2
+%define release %mkrel 0.%{pre}.3
 
 Name: 		%{name}
 Release: 	%{release}
