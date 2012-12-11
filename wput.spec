@@ -46,3 +46,41 @@ rm -rf $RPM_BUILS_ROOT
 %{_bindir}/wput
 %config(noreplace) %{_sysconfdir}/wputrc
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 0.6.1-2mdv2011.0
++ Revision: 615462
+- the mass rebuild of 2010.1 packages
+
+* Sun Mar 07 2010 Sandro Cazzaniga <kharec@mandriva.org> 0.6.1-1mdv2010.1
++ Revision: 515456
+- fix license, source, %%prep
+- New version 0.6.1
+- use %%configure2_5x
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 0.6-0.pre.3mdv2010.0
++ Revision: 434981
+- rebuild
+
+* Thu Jan 03 2008 Olivier Blin <oblin@mandriva.com> 0.6-0.pre.2mdv2009.0
++ Revision: 140933
+- restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.6-0.pre.2mdv2008.1
++ Revision: 129469
+- kill re-definition of %%buildroot on Pixel's request
+- import wput
+
+
+* Thu Apr 20 2006 Lenny Cartier <lenny@mandriva.com> 0.6-0.pre.2mdk
+- rebuild for dependencies
+
+* Thu Jul 28 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.6-0.pre.1mdk 
+- new version
+
+* Sun Dec 05 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.5-1mdk
+- 0.5
+
+* Sun Nov 23 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.3.4-1mdk
+- new
