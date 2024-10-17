@@ -9,7 +9,7 @@ Summary: 	Uploading files to FTP servers
 License: 	GPLv2
 Group: 		Networking/File transfer
 Source:		http://prdownloads.sourceforge.net/wput/%{name}-%{version}.tar.bz2
-URL:		http://wput.sourceforge.net/
+URL:		https://wput.sourceforge.net/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
 %description
