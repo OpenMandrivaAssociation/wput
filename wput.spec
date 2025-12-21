@@ -12,6 +12,11 @@ Source:		http://prdownloads.sourceforge.net/wput/%{name}-%{version}.tar.bz2
 URL:		https://wput.sourceforge.net/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Wput is the opposite of wget, capable of uploading files to FTP 
 servers with an easy to use command line interface similar to 
